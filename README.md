@@ -1,6 +1,7 @@
 # scrap.tf-item-information
 _____________________________________________
 This is an userscript to add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
+
 Currently options of the menu are:
 
 * Item History
@@ -43,7 +44,7 @@ Should an administrator of scrap.tf feel that this extension shouldn't be used, 
 ## Preview
 _____________________________________________
 
-![Preview](https://raw.githubusercontent.com/NetroScript/scrap.tf-item-information/master/preview1.png)
+![Preview](https://raw.githubusercontent.com/NetroScript/scrap.tf-item-information/master/preview.png)
 
 In the order of the menu, the created links are:
 
