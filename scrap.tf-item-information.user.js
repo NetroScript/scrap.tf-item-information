@@ -71,7 +71,7 @@ JSON.stringify(defindexa)
 
 
 
-	function backpacksearchquery(ite, s_quality = true, s_aussi = true, s_classes = false, s_killstreak = true, s_sheen = false, s_killstreakeffect = true, s_particleeffect = true, s_paint = false, s_skin = true, s_wear = false, s_level = false){
+	function backpacksearchquery(ite, s_quality = true, s_aussi = true, s_classes = false, s_killstreak = true, s_sheen = false, s_killstreakeffect = false, s_particleeffect = true, s_paint = false, s_skin = true, s_wear = false, s_level = false){
 		let query = "?item=";
 		let it = $(ite);
 		let defindex = it.attr("data-defindex");
