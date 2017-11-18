@@ -28,6 +28,11 @@ _____________________________________________
 
 * Released
 
+#### 0.1.1
+
+Fixed: 
+* When extracting the level of an item only the first number was extracted
+
 
 ## Planned features
 _____________________________________________

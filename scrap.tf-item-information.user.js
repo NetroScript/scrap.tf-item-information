@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         scrap.tf-item-information
-// @version      0.1
+// @version      0.1.1
 // @description  Add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
 // @author       Netroscript
 // @match        https://*.scrap.tf/*
@@ -140,7 +140,7 @@ JSON.stringify(defindexa)
 
 		}
 		if(s_level){
-			let level = it.attr("data-content").match(/Level ([0-9])/g);
+			let level = it.attr("data-content").match(/Level ([0-9]+)/g);
 			if(level != null) query+="&numeric=level&value="+level[0].split("Level ")[1];
 
 		}
