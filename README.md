@@ -7,7 +7,7 @@ Currently options of the menu are:
 * Item History
 * Check Classifieds
 * Check Classifieds (Accurate)
-* Premium Search 
+* Premium Search
 * Premium Search (Accurate)
 * Item on Marketplace.tf
 
@@ -30,8 +30,13 @@ _____________________________________________
 
 #### 0.1.1
 
-Fixed: 
+Fixed:
 * When extracting the level of an item only the first number was extracted
+
+#### 0.1.2
+
+Fixed:
+* Works with the most recent backpack.tf Update [08.12.2017] (Changes to Skin Search, now you can also find war paints)
 
 
 ## Planned features

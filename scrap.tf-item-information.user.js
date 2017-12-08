@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         scrap.tf-item-information
-// @version      0.1.1
+// @version      0.1.2
 // @description  Add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
 // @author       Netroscript
 // @match        https://*.scrap.tf/*
@@ -97,6 +97,7 @@ JSON.stringify(defindexa)
 		if(s_classes)
 		{
 			let tfclasses = it.attr("data-classes");
+			if(tfclasses.split(" ").length <= 1)
 			query+="&class="+tfclasses.replace(/ /g, "%2C");
 		}
 		if(s_paint)
@@ -134,8 +135,9 @@ JSON.stringify(defindexa)
 			if(tmp.length >= 2){
 				let wear = tmp[1].replace(/\(|\)/g, "");
 				let skin  = tmp[0].replace(/Collector's |Decorated Weapon |Genuine |Haunted |Normal |Self-Made |Strange |Unique |Unusual |Vintage /g, "");
-				if(s_skin) query+="&skin="+skin;
-				if(s_wear) query+="&wear="+wear;
+				if(s_skin) query+="&texture_name="+skin;
+				let weartypes = ["","Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle Scarred"]
+				if(s_wear) query+="&wear_tier="+weartypes.indexOf(wear);
 			}
 
 		}
