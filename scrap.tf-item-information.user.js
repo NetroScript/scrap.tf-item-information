@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         scrap.tf-item-information
-// @version      0.1.2
+// @version      0.1.3
 // @description  Add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
 // @author       Netroscript
 // @match        https://*.scrap.tf/*
@@ -239,6 +239,49 @@ JSON.stringify(defindexa)
 				if(it.attr("data-content").indexOf("Strange Stat Clock") !== -1) query+= ";strange";
 				if(classes.indexOf("uncraft")!==-1) query+= ";uncraftable";
 
+				window.open(query);
+
+			}},
+			steam: {name: "Steam Community Market", callback: function(key, opt){
+				let query = "http://steamcommunity.com/market/listings/440/";
+				let it = $(this);
+				let defindex = it.attr("data-defindex");
+				let itemname = $($.parseHTML(it.attr("data-title"))).text();
+				let defindexitemname = defindexes[defindex];
+				let classes = it.attr("class");
+				let qu = /(?:quality)[0-9]+/g;
+				let quals = classes.match(qu);
+				//Quality
+q = {
+  "quality0": "Normal",
+  "quality1": "Genuine",
+  "quality3": "Vintage",
+  "quality5": "Unusual",
+  "quality7": "Community",
+  "quality8": "Valve",
+  "quality9": "Self-Made",
+  "quality10": "Customized",
+  "quality11": "Strange",
+  "quality12": "Completed",
+  "quality13": "Haunted",
+  "quality14": "Collector's",
+}
+				if(it.attr("data-content").indexOf("Strange Stat Clock") !== -1) query+= "Strange ";
+				else if(q.hasOwnProperty(quals[0]))
+				query += q[quals[0]]+" ";
+				let wear, skin;
+				wear = "";
+				(classes.indexOf("killstreak1") !== -1) ? query+="Killstreak " : (classes.indexOf("killstreak2") !== -1) ? query+="Specialized Killstreak " : (classes.indexOf("killstreak3") !== -1) ? query+="Professional Killstreak " : query+="";
+
+
+				let tmp = itemname.split(" "+defindexes[defindex]+" ");
+				if(tmp.length >= 2){
+					wear = tmp[1].replace(/\(|\)/g, "");
+					skin  = tmp[0].replace(/Collector's |Decorated Weapon |Genuine |Haunted |Normal |Self-Made |Strange |Unique |Unusual |Vintage /g, "");
+					query+=skin+" ";
+				}
+				query+=defindexitemname+" ";
+				if(wear.length > 0) query+="("+wear+")"
 				window.open(query);
 
 			}},

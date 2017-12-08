@@ -39,6 +39,11 @@ Fixed:
 * Works with the most recent backpack.tf Update [08.12.2017] (Changes to Skin Search, now you can also find war paints)
 
 
+#### 0.1.3
+
+Added:
+* Search for an item on the Steam Community Market
+
 ## Planned features
 _____________________________________________
 
