@@ -38,11 +38,18 @@ Fixed:
 Fixed:
 * Works with the most recent backpack.tf Update [08.12.2017] (Changes to Skin Search, now you can also find war paints)
 
-
 #### 0.1.3
 
 Added:
 * Search for an item on the Steam Community Market
+
+#### 0.1.4
+
+Updated:
+* Updated defindex item name list to 03.01.2018
+
+Fixed:
+* Fall back to the name on scrap.tf if there is no known name for the defindex
 
 ## Planned features
 _____________________________________________
