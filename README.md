@@ -51,6 +51,14 @@ Updated:
 Fixed:
 * Fall back to the name on scrap.tf if there is no known name for the defindex
 
+#### 0.1.5
+
+Updated:
+* Updated defindex item name list to 09.05.2018
+
+Fixed:
+* Wrong URL syntax for skins when generating a marketplace.tf link
+
 ## Planned features
 _____________________________________________
 
