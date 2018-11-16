@@ -9,7 +9,7 @@
 // @downloadURL  https://github.com/NetroScript/scrap.tf-item-information/raw/master/scrap.tf-item-information.user.js
 // @updateURL    https://github.com/NetroScript/scrap.tf-item-information/raw/master/scrap.tf-item-information.meta.js
 // @run-at       document-end
-// @grant        none
+// @grant        GM_addStyle
 // ==/UserScript==
 
 

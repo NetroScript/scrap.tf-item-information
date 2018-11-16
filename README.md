@@ -67,6 +67,11 @@ Updated:
 Fixed:
 * Requiring own JQuery version after scrap.tf changed their used version, so it still works
 
+#### 0.1.7
+
+Fixed:
+* Changed Grant so that the older JQuery version does not overwrite the JQuery version of the page
+
 
 ## Planned features
 _____________________________________________
