@@ -59,6 +59,15 @@ Updated:
 Fixed:
 * Wrong URL syntax for skins when generating a marketplace.tf link
 
+#### 0.1.6
+
+Updated:
+* Updated defindex item name list to 16.11.2018
+
+Fixed:
+* Requiring own JQuery version after scrap.tf changed their used version, so it still works
+
+
 ## Planned features
 _____________________________________________
 
