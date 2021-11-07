@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         scrap.tf-item-information
-// @version      0.1.8
+// @version      0.1.9
 // @description  Add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
 // @author       Netroscript
 // @match        https://*.scrap.tf/*

@@ -94,6 +94,21 @@ Fixed:
 * Updated libraries
 * Now also changed items (like in auctions) still open the context menu
 
+#### 0.1.9
+
+Added:
+
+* A basic version of the middle mouse menu now works on the scrap.tf/items page
+
+Updated:
+
+* Updated defindex item name list to 07.11.2021
+
+Improved:
+
+* Added australium support for marketplace.tf links
+* Handling of unusual decorated items on backpack.tf (don't enforce a quality anymore)
+
 ## Planned features
 
 _____________________________________________
