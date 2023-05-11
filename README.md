@@ -109,6 +109,12 @@ Improved:
 * Added australium support for marketplace.tf links
 * Handling of unusual decorated items on backpack.tf (don't enforce a quality anymore)
 
+#### 0.1.10
+
+Updated:
+
+* Updated defindex item name list to 11.05.2023
+
 ## Planned features
 
 _____________________________________________
