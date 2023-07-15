@@ -115,6 +115,12 @@ Updated:
 
 * Updated defindex item name list to 11.05.2023
 
+#### 0.1.11
+
+Updated:
+
+* Updated defindex item name list to 15.07.2023
+
 ## Planned features
 
 _____________________________________________
