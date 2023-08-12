@@ -121,6 +121,17 @@ Updated:
 
 * Updated defindex item name list to 15.07.2023
 
+#### 0.1.12
+
+Added:
+
+* Additional entry for stntrading.eu
+
+Fixed:
+
+* Special Handling for the Haunted Ghosts War Paint
+* Australiums working correctly for Steam Community Market links
+
 ## Planned features
 
 _____________________________________________
