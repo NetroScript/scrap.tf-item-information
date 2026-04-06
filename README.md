@@ -132,6 +132,12 @@ Fixed:
 * Special Handling for the Haunted Ghosts War Paint
 * Australiums working correctly for Steam Community Market links
 
+#### 0.1.13
+
+Added:
+
+* Automatic defindex item name fetching and updating thanks to https://pricedb.io
+
 ## Planned features
 
 _____________________________________________
